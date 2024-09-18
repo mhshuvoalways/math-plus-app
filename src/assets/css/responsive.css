@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1300px) {
+  .math-intro-human {
+    width: 300px;
+  }
+  .overview {
+    width: calc(100% - 300px);
+  }
+  .aboutus-readingbook {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .aboutus-readingbook-calculate {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    width: calc(100% - 200px);
+  }
+  .math-intro-left {
+    width: 100%;
+  }
+  .intro-right {
+    display: none;
+  }
+  .intro-flex-human {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .intro-flex-human-right {
+    display: block;
+  }
+  .actual-math-number-end {
+    padding-right: 25px;
+  }
+  .math-intro-human {
+    width: 200px;
+  }
+  .count-start {
+    font-weight: 800;
+    font-size: 200px;
+  }
+  .overview {
+    width: calc(100% - 100px);
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .math-option {
+    width: 100%;
+  }
+  .overview {
+    padding: 20px;
+  }
+  .overview-card {
+    padding: 30px 10px;
+    width: 110px;
+  }
+  .actual-math-answare {
+    width: 90%;
+    font-size: 10vw;
+    margin: auto;
+  }
+  .actual-math-next-btn {
+    padding: 11px 0;
+    font-size: 22px;
+  }
+  .howitworks-guide {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .howitworks-container {
+    width: 100%;
+  }
+  .howitworks-guide-number {
+    margin-top: 0px;
+  }
+  .aboutus-readingbook-img-container {
+    width: 100%;
+    margin: auto;
+  }
+  .aboutus-readingbook-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+  .header-content {
+    display: block;
+  }
+  .header-bar-icon {
+    display: block !important;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    background-color: #f7f9fd;
+    border-radius: 5px;
+    border: 1px solid rgba(54, 41, 183, 0.09);
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+  }
+  .nav-mobile-item {
+    padding: 10px 20px;
+  }
+  .nav-mobile-item:hover {
+    background: #ffffff;
+  }
+  .filter-title {
+    text-align: center;
+  }
+  .filter-flex {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .main-actual {
+    padding: 0px 20px;
+  }
+  .progress-bar {
+    width: 100%;
+  }
+  .actual-math-border {
+    width: 100%;
+  }
+  .actual-math-next-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  .actual-math-answare__desktop {
+    display: none;
+  }
+  .actual-math-answare__mobile {
+    display: block;
+  }
+  .score-doit-btn {
+    padding: 8px 5px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .short-overview {
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .short-overview-items {
+    border: 1px solid #f2eeee;
+    padding: 5px;
+  }
+  .short-overview-sec-dec {
+    margin-left: 30px;
+  }
+  .footer-flex {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .footer-menu {
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .math-intro {
+    padding: 20px;
+    gap: 10px;
+  }
+  .intro-right {
+    display: block;
+  }
+  .math-intro-example {
+    margin-top: 0px;
+  }
+  .intro-flex-human-right {
+    display: none;
+  }
+  .intro-example-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .math-intro-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 25px;
+    margin-top: 10px;
+  }
+  .math-vertical {
+    font-size: 10vw;
+  }
+  .math-horizontal {
+    gap: 5px;
+  }
+  .actual-math-answare__horizontal {
+    font-size: 15vw;
+  }
+  .actual-math-answare-hori-desktop {
+    display: none;
+  }
+  .actual-math-answare-hori-mobile {
+    display: block;
+  }
+  .actual-math-number-end {
+    padding-right: 20px;
+  }
+  .count {
+    padding: 5px;
+  }
+  .count-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+  }
+  .count-start {
+    font-weight: 700;
+    font-size: 80px;
+  }
+  .overview {
+    padding: 20px 10px;
+  }
+  .overview-card {
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .short-overview-items {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .howitworks {
+    padding: 20px;
+  }
+  .contact-container {
+    width: 70%;
+  }
+  .contact-email {
+    padding: 14px 2px;
+  }
+  .contact-message {
+    padding: 14px 2px;
+  }
+  .contact-submit-btn {
+    width: 100%;
+    padding: 14px 2px;
+  }
+  .success-goto-home-btn {
+    width: 100%;
+  }
+}

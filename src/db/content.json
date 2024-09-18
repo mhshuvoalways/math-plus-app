@@ -1,0 +1,322 @@
+{
+  "header": {
+    "logo": {
+      "image": "images/Logo.svg",
+      "url": "/"
+    },
+    "nav": [
+      {
+        "_id": 1,
+        "name": "Drills",
+        "url": "/"
+      },
+      {
+        "_id": 2,
+        "name": "How it works",
+        "url": "/howitworks"
+      },
+      {
+        "_id": 3,
+        "name": "About us",
+        "url": "/aboutus"
+      }
+    ]
+  },
+
+  "filter": {
+    "title": "Course Category",
+    "items": [
+      {
+        "_id": 0,
+        "year": "5-6",
+        "grade": "Kindergarden",
+        "isActive": false
+      },
+      {
+        "_id": 1,
+        "year": "6-7",
+        "grade": "1st grade",
+        "isActive": true
+      },
+      {
+        "_id": 2,
+        "year": "7-8",
+        "grade": "2nd grade",
+        "isActive": false
+      },
+      {
+        "_id": 3,
+        "year": "8-9",
+        "grade": "3rd grade",
+        "isActive": false
+      },
+      {
+        "_id": 4,
+        "year": "9-10",
+        "grade": "4th grade",
+        "isActive": false
+      },
+      {
+        "_id": 5,
+        "year": "10-11",
+        "grade": "5th grade",
+        "isActive": false
+      },
+      {
+        "_id": 6,
+        "year": "11-12",
+        "grade": "6th grade",
+        "isActive": false
+      },
+      {
+        "_id": 7,
+        "year": "12-13",
+        "grade": "7th Food",
+        "isActive": "disable"
+      }
+    ]
+  },
+
+  "math": {
+    "totalQuestions": 5,
+    "addition": {
+      "title": "Addition",
+      "description": "Simple and complex addition problems according to grade level.",
+      "options": [
+        {
+          "_id": "add1",
+          "number": 10,
+          "title": "Add Up to 10",
+          "description": "Add numbers up to 10 (Kindergarten, 1st Grade).",
+          "filterItems": [0, 1],
+          "modal": {
+            "title": "Add Up to 10",
+            "description": "Practice adding numbers up to 10 for Kindergarten and 1st grade students.",
+            "example": {
+              "first": "10 + 4",
+              "second": "5 + 2"
+            }
+          }
+        },
+        {
+          "_id": "add2",
+          "number": 20,
+          "title": "Add Up to 20",
+          "description": "Add numbers up to 20 (1st, 2nd, and 3rd Grades).",
+          "filterItems": [1, 2, 3],
+          "modal": {
+            "title": "Add Up to 20",
+            "description": "Practice adding numbers up to 20 for 1st to 3rd grade students.",
+            "example": {
+              "first": "19 + 9",
+              "second": "17 + 2"
+            }
+          }
+        },
+        {
+          "_id": "add3",
+          "number": 50,
+          "title": "Add Up to 50",
+          "description": "Add numbers up to 50 (3rd, 4th Grades).",
+          "filterItems": [3, 4],
+          "modal": {
+            "title": "Add Up to 50",
+            "description": "Challenge yourself with addition problems up to 50 for 3rd and 4th grade.",
+            "example": {
+              "first": "41 + 49",
+              "second": "45 + 4"
+            }
+          }
+        },
+        {
+          "_id": "add4",
+          "number": 100,
+          "title": "Add Up to 100",
+          "description": "Add numbers up to 100 (5th, 6th Grades).",
+          "filterItems": [5, 6],
+          "modal": {
+            "title": "Add Up to 100",
+            "description": "Solve addition problems up to 100 for 5th and 6th grade students.",
+            "example": {
+              "first": "72 + 28",
+              "second": "56 + 37"
+            }
+          }
+        }
+      ]
+    },
+    "subtraction": {
+      "title": "Subtraction",
+      "description": "Simple and complex subtraction problems according to grade level.",
+      "options": [
+        {
+          "_id": "sub1",
+          "number": 10,
+          "title": "Subtract Up to 10",
+          "description": "Subtract numbers up to 10 (Kindergarten, 1st Grade).",
+          "filterItems": [0, 1],
+          "modal": {
+            "title": "Subtract Up to 10",
+            "description": "Simple subtraction problems up to 10 for Kindergarten and 1st grade students.",
+            "example": {
+              "first": "10 - 2",
+              "second": "19 - 16"
+            }
+          }
+        },
+        {
+          "_id": "sub2",
+          "number": 20,
+          "title": "Subtract Up to 20",
+          "description": "Subtract numbers up to 20 (1st, 2nd, and 3rd Grades).",
+          "filterItems": [1, 2, 3],
+          "modal": {
+            "title": "Subtract Up to 20",
+            "description": "Subtraction problems for 1st to 3rd grade students, with numbers up to 20.",
+            "example": {
+              "first": "19 - 5",
+              "second": "28 - 11"
+            }
+          }
+        },
+        {
+          "_id": "sub3",
+          "number": 50,
+          "title": "Subtract Up to 50",
+          "description": "Subtract numbers up to 50 (3rd, 4th Grades).",
+          "filterItems": [3, 4],
+          "modal": {
+            "title": "Subtract Up to 50",
+            "description": "Solve subtraction problems up to 50 for 3rd and 4th grade.",
+            "example": {
+              "first": "35 - 12",
+              "second": "100 - 49"
+            }
+          }
+        },
+        {
+          "_id": "sub4",
+          "number": 100,
+          "title": "Subtract Up to 100",
+          "description": "Subtract numbers up to 100 (5th, 6th Grades).",
+          "filterItems": [5, 6],
+          "modal": {
+            "title": "Subtract Up to 100",
+            "description": "Subtraction problems up to 100 for 5th and 6th grade students.",
+            "example": {
+              "first": "92 - 47",
+              "second": "120 - 50"
+            }
+          }
+        }
+      ]
+    },
+    "multiplications": {
+      "title": "Multiplications",
+      "description": "Simple and complex multiplication problems according to grade level.",
+      "options": [
+        {
+          "_id": "mul1",
+          "number": 10,
+          "title": "Multiply Up to 10",
+          "description": "Multiply numbers up to 10 (2nd, 3rd Grades).",
+          "filterItems": [2, 3],
+          "modal": {
+            "title": "Multiply Up to 10",
+            "description": "Multiplication problems with numbers up to 10 for 2nd and 3rd grade students.",
+            "example": {
+              "first": "10 x 5",
+              "second": "5 x 2"
+            }
+          }
+        },
+        {
+          "_id": "mul2",
+          "number": 20,
+          "title": "Multiply Up to 20",
+          "description": "Multiply numbers up to 20 (3rd, 4th Grades).",
+          "filterItems": [3, 4],
+          "modal": {
+            "title": "Multiply Up to 20",
+            "description": "Multiplication practice with numbers up to 20 for 3rd and 4th grade.",
+            "example": {
+              "first": "19 x 6",
+              "second": "5 x 4"
+            }
+          }
+        },
+        {
+          "_id": "mul3",
+          "number": 50,
+          "title": "Multiply Up to 50",
+          "description": "Multiply numbers up to 50 (5th, 6th Grades).",
+          "filterItems": [5, 6],
+          "modal": {
+            "title": "Multiply Up to 50",
+            "description": "Challenging multiplication problems with numbers up to 50 for 5th and 6th grade.",
+            "example": {
+              "first": "49 x 6",
+              "second": "5 x 10"
+            }
+          }
+        }
+      ]
+    },
+    "division": {
+      "title": "Division",
+      "description": "Simple and complex division problems according to grade level.",
+      "options": [
+        {
+          "_id": "div1",
+          "number": 10,
+          "title": "Divide Up to 10",
+          "description": "Divide numbers up to 10 (3rd, 4th Grades).",
+          "filterItems": [3, 4],
+          "modal": {
+            "title": "Divide Up to 10",
+            "description": "Division problems with numbers up to 10 for 3rd and 4th grade students.",
+            "example": {
+              "first": "10 ÷ 10",
+              "second": "20 ÷ 4"
+            }
+          }
+        },
+        {
+          "_id": "div2",
+          "number": 20,
+          "title": "Divide Up to 20",
+          "description": "Divide numbers up to 20 (5th, 6th Grades).",
+          "filterItems": [5, 6],
+          "modal": {
+            "title": "Divide Up to 20",
+            "description": "Division practice with numbers up to 20 for 5th and 6th grade students.",
+            "example": {
+              "first": "20 ÷ 10",
+              "second": "100 ÷ 5"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "logo": {
+      "image": "images/LogoFooter.svg",
+      "url": "/",
+      "year": "2022"
+    },
+    "nav": [
+      {
+        "_id": 1,
+        "name": "About us",
+        "url": "/aboutus"
+      },
+      {
+        "_id": 2,
+        "name": "Contact us",
+        "url": "/contactus"
+      }
+    ]
+  }
+}
